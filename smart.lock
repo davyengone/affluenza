@@ -2,13 +2,19 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "twit": {}
+      "twit": {},
+      "iron-router": {}
     },
     "packages": {
       "twit": {
         "git": "https://github.com/subhog/meteor-twit.git",
         "tag": "v0.2.0",
         "commit": "3eb473f9efef8c77ae6a8eb6715fbdf93c4d87c0"
+      },
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.6.2",
+        "commit": "ce56e58b45624dce992490f3a1c10f10d3948bae"
       }
     }
   }
