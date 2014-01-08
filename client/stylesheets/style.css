@@ -1,0 +1,59 @@
+/* CSS declarations go here */
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+    height: 40px;
+    font-size: 25px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    z-index: 1;
+    text-shadow: 0 -1px 0 #bbb;
+    color: #eee;
+    font-family: Helvetica Neue, Helvetica, arial;
+    line-height: 25px;
+    padding-left: 25px;
+}
+
+#searchTextField {
+  margin: 5px 0 5px 50px;
+}
+
+.hint {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+#social {
+  float:right;
+  margin-top:5px;
+}
+
+#login {
+  margin:2px 20px 0 0;
+}
+
+.about {
+  margin-right: 20px;
+  margin-top: 8px;
+  color: white;
+  font-size: 16px;
+}
+
+#map-canvas {
+	height: 100%;
+	background-color: moccasin;
+	max-width: 100%;
+	padding: 0;
+	overflow: hidden;
+	margin: 0;
+}
+
+/*Social media */
