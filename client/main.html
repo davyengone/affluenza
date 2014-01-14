@@ -1,0 +1,33 @@
+<head>
+	<title>Affluenza</title>
+<!--Optimize for mobile devices-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	{{> nav}}
+	{{> map}}
+</body>
+ 
+<template name="nav">
+	<nav>
+  		<span>Affluenza</span>
+
+  		{{#constant}}
+  			<ul class="pull-right" style="margin-right:5%; margin-top:3px; font-size 18px">
+  				{{ loginButtons }}
+  			</ul>
+  			<div id="social">
+  				 <a href="https://twitter.com/share" class="twitter-share-button" data-via="instahood" data-size="large" data-hashtags="affluenza" data-text="Check out a real time map of gentrification across neighborhoods in NYC">Tweet</a>
+    		</div>
+     		<a href="http://www.willjproductions.com" target="_blank"><span class="about pull-right">About</span></a>
+     	{{/constant}}
+    </nav>
+</template>
+
+<template name='map'>
+<!-- Template for the base map, #map-canvas must have a height through CSS or it won't get shown -->
+	<div id='map-canvas'></div>
+</template>
+

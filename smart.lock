@@ -3,7 +3,8 @@
   "dependencies": {
     "basePackages": {
       "twit": {},
-      "iron-router": {}
+      "iron-router": {},
+      "analytics": {}
     },
     "packages": {
       "twit": {
@@ -15,6 +16,11 @@
         "git": "https://github.com/EventedMind/iron-router.git",
         "tag": "v0.6.2",
         "commit": "ce56e58b45624dce992490f3a1c10f10d3948bae"
+      },
+      "analytics": {
+        "git": "https://github.com/Tarangp/Meteor-Analytics.git",
+        "tag": "v0.3.3",
+        "commit": "ad2521caf0e5e4dc7382707416dad55fe8ac134f"
       }
     }
   }
