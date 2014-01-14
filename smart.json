@@ -2,6 +2,7 @@
   "packages": {
     "twit": {},
     "iron-router": {},
-    "analytics": {}
+    "analytics": {},
+    "spin": {}
   }
 }

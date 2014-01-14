@@ -4,7 +4,8 @@
     "basePackages": {
       "twit": {},
       "iron-router": {},
-      "analytics": {}
+      "analytics": {},
+      "spin": {}
     },
     "packages": {
       "twit": {
@@ -21,6 +22,11 @@
         "git": "https://github.com/Tarangp/Meteor-Analytics.git",
         "tag": "v0.3.3",
         "commit": "ad2521caf0e5e4dc7382707416dad55fe8ac134f"
+      },
+      "spin": {
+        "git": "https://github.com/SachaG/meteor-spin.git",
+        "tag": "v0.2.2",
+        "commit": "3f655f0016228e4195acc784c45d3e3a247dc39f"
       }
     }
   }
