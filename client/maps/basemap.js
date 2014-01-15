@@ -4,14 +4,21 @@
   //create an array of styles
   var styles = [
   {
-    "featureType": "road.highway",
+    "featureType": "road",
+    "elementType": "geometry.fill",
+    "stylers": [
+      { "color": "#000" },
+      { "visibility": "off" }
+    ]
+  },{
+    "featureType": "road",
     "stylers": [
       { "visibility": "off" }
     ]
   },{
-    "featureType": "road.arterial",
+    "featureType": "landscape",
     "stylers": [
-      { "visibility": "off" }
+      { "color": "#000" }
     ]
   },{
     "featureType": "poi",
@@ -24,7 +31,7 @@
       { "color": "#ffffff" }
     ]
   },{
-    "featureType": "administrative.province",
+    "featureType": "administrative",
     "stylers": [
       { "visibility": "off" }
     ]
@@ -42,11 +49,6 @@
     "featureType": "road.local",
     "stylers": [
       { "visibility": "simplified" }
-    ]
-  },{
-    "featureType": "landscape",
-    "stylers": [
-      { "visibility": "off" }
     ]
   }];
   //create a new StyledMapType object, passing it the styles array
@@ -69,6 +71,12 @@
    map.mapTypes.set( 'map_style', styledMap);
    map.setMapTypeId('map_style');
 //add the cartoDB layer, URL is in CartoDB interface, share -API tab
-var layerUrl1 = 'http://wjohnson1261.cartodb.com/api/v2/viz/edbbdb9a-69cd-11e3-b177-0e49973114de/viz.json';
-cartodb.createLayer(map, layerUrl1).addTo(map);
+var layerUrl1 = 'http://wjohnson1261.cartodb.com/api/v2/viz/95ae4b74-7e02-11e3-a54b-0e49973114de/viz.json';
+cartodb.createLayer(map, layerUrl1, {
+  layer_selector: true
+}).addTo(map);
   };
+
+
+
+
