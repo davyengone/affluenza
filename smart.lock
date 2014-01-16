@@ -5,7 +5,9 @@
       "twit": {},
       "iron-router": {},
       "analytics": {},
-      "spin": {}
+      "spin": {},
+      "streams": {},
+      "moot": {}
     },
     "packages": {
       "twit": {
@@ -20,13 +22,23 @@
       },
       "analytics": {
         "git": "https://github.com/Tarangp/Meteor-Analytics.git",
-        "tag": "v0.3.3",
-        "commit": "ad2521caf0e5e4dc7382707416dad55fe8ac134f"
+        "tag": "v0.3.5",
+        "commit": "abc2bff0d326af01f9a23e7f1c916e7653b1eb4c"
       },
       "spin": {
         "git": "https://github.com/SachaG/meteor-spin.git",
         "tag": "v0.2.2",
         "commit": "3f655f0016228e4195acc784c45d3e3a247dc39f"
+      },
+      "streams": {
+        "git": "https://github.com/arunoda/meteor-streams.git",
+        "tag": "v0.1.17",
+        "commit": "9fcbbc9b7bf542827babc92089c19e730892a22f"
+      },
+      "moot": {
+        "git": "https://github.com/zhouzhuojie/meteor-moot.git",
+        "tag": "v0.0.1",
+        "commit": "7f5b5dfc453dea4f7e79bbaf54aca3e1bc9da4c2"
       }
     }
   }

@@ -3,6 +3,8 @@
     "twit": {},
     "iron-router": {},
     "analytics": {},
-    "spin": {}
+    "spin": {},
+    "streams": {},
+    "moot": {}
   }
 }

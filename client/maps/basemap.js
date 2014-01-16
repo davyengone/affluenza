@@ -53,6 +53,7 @@
   }];
   //create a new StyledMapType object, passing it the styles array
   //and the name to be displayed on map type control
+  console.log ("Initializing google maps...");
   var styledMap = new google.maps.StyledMapType(styles,
     {name: "StyledMap"});
 
@@ -76,6 +77,8 @@ cartodb.createLayer(map, layerUrl1, {
   layer_selector: true
 }).addTo(map);
   };
+//Set session variable of map to true
+  Session.set('map',true);
 
 
 
