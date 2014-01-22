@@ -1,10 +1,10 @@
 {
   "packages": {
     "twit": {},
-    "iron-router": {},
     "analytics": {},
     "spin": {},
     "streams": {},
-    "moot": {}
+    "moot": {},
+    "iron-router": {}
   }
 }
