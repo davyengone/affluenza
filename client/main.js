@@ -1,3 +1,5 @@
+
+
 /*locStream = new Meteor.Collecti('loc');
 
 locStream.on('update', function(update) {

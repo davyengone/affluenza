@@ -6,10 +6,12 @@
 standard-app-packages
 insecure
 preserve-inputs
-bootstrap
 twit
 accounts-password
 analytics
 spin
 streams
 moot
+accounts-ui
+accounts-twitter
+bootstrap
