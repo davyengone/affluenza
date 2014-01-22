@@ -1,3 +1,4 @@
+//Was having issue with setting my twitter account after a failed try, this fixed it
 Meteor.startup(function() {
   Accounts.loginServiceConfiguration.remove({
     service: "twitter"

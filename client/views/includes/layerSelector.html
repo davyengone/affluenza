@@ -1,8 +1,9 @@
+<!-- 
 <template name ="layerSelector">
 	<div id="layer_selector" class="cartodb-infobox">
       <ul>
-        <li data="By home price ">By home price<sup>2</sup></li>
-        <li data="By rental">By rental<sup>2</sup></li>
+        <li data="median_avgsale">By home price<sup>2</sup></li>
+        <li data="median_avgrent">By rental<sup>2</sup></li>
       </ul>
 	</div>
 	<script>
@@ -14,17 +15,17 @@
         $options.click(function(e) {
           // get the area of the selected layer
           var $li = $(e.target);
-          var area = $li.attr('data');
+          var variable = $li.attr('data');
 
           // deselect all and select the clicked one
           $options.removeClass('selected');
           $li.addClass('selected');
 
           // create query based on data from the layer
-          var query = "select * from european_countries_e";
+          var query = "select * from Gentrifi";
 
           if(area !== 'all') {
-            query = "select * from european_countries_e where area > " + area;
+            query = "select * from Gentrifi where variable is" + variable;
           }
 
           // change the query in the layer to update the map
@@ -50,3 +51,5 @@
       }
 	</script>
 </template>
+
+-->

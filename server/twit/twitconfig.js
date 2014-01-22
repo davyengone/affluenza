@@ -1,4 +1,5 @@
 /*
+//This JS should connect to twitter's streaming API and collect  tweets, logging 'failllll' if not
 tweets = new Meteor.Collection('tweets');
 
 	Meteor.methods({
