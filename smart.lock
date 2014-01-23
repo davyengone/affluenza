@@ -3,7 +3,6 @@
   "dependencies": {
     "basePackages": {
       "twit": {},
-      "analytics": {},
       "spin": {},
       "streams": {},
       "moot": {},
@@ -14,11 +13,6 @@
         "git": "https://github.com/subhog/meteor-twit.git",
         "tag": "v0.2.0",
         "commit": "3eb473f9efef8c77ae6a8eb6715fbdf93c4d87c0"
-      },
-      "analytics": {
-        "git": "https://github.com/Tarangp/Meteor-Analytics.git",
-        "tag": "v0.3.9",
-        "commit": "8efca2c6e006bc75f97ff4c3002a2f9ab1a6b91b"
       },
       "spin": {
         "git": "https://github.com/SachaG/meteor-spin.git",

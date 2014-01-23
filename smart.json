@@ -1,7 +1,6 @@
 {
   "packages": {
     "twit": {},
-    "analytics": {},
     "spin": {},
     "streams": {},
     "moot": {},
